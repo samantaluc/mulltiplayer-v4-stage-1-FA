@@ -20,8 +20,7 @@ class Form {
       var message = ` Olá ${this.input.value()} </br>espere outro jogador entrar...`;
       this.greeting.html(message);
       player.name = this.input.value();
-      player.index = 1;
-      //player.addPlayer();          });             }
+      player.index = 1;        });             }
   display() {
    this.setElementsPosition();
    this.handleMousePressed();     }
